@@ -1,8 +1,24 @@
 aid: material-evolution
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/material-evolution.png
 name: Material Evolution
-description: Material Evolution is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Material Evolution is a UK-based cleantech manufacturer of ultra-low carbon cement for the
+  construction industry. Its MevoCem and MevoXL products use a proprietary "Alkali Fusion" process to
+  transform industrial byproducts into cement feedstocks, achieving a 52.5N strength rating at roughly
+  144-196 kg CO2e per tonne versus ordinary Portland cement. The company operates compact, automated
+  factories (including its Wrexham facility) and applies AI to material development and feedstock
+  optimization. It is a B2B cement supplier and does not currently publish any public developer-facing
+  API, developer portal, or technical documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/material-evolution/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cement
+- Construction
+- Sustainability
+- Low Carbon
+- Cleantech
+- Manufacturing
+- Materials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/material-evolution-domain-security.yml
 - type: Website
-  url: https://materialevolution.co.uk/
+  url: https://materialevolution.com/
+- type: Blog
+  url: https://materialevolution.com/media/
+- type: PrivacyPolicy
+  url: https://materialevolution.com/privacy-policy/
+- type: Support
+  url: https://materialevolution.com/contact/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
